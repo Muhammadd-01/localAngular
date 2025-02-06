@@ -9,4 +9,10 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'Hey, Affan';
+  name = "Affan";
+
+  hello(){
+    let x = "Hello, " +this.name;
+    return x;
+  }
 }
